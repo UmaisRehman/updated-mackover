@@ -140,12 +140,7 @@ const Allservices = () => {
                 </button>
               </div>
 
-              {/* Mobile indicator */}
-              {isMobile && (
-                <div className="absolute -bottom-3 left-1/2 transform -translate-x-1/2 text-amber-400 text-xs">
-                  {activeCard === index ? '▲ Tap to close' : '▼ Tap to explore'}
-                </div>
-              )}
+             
             </div>
           ))}
         </div>
