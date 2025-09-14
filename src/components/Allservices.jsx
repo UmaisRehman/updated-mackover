@@ -131,13 +131,7 @@ const Allservices = () => {
                   {service.description}
                 </p>
                 
-                {/* Button - always visible on mobile when active, shown on hover on desktop */}
-                <button className={`mt-6 py-2 px-6 bg-transparent border border-amber-400 text-amber-400 rounded-full transition-all duration-500 hover:bg-amber-400 hover:text-gray-900 font-medium ${
-                  (activeCard === index && isMobile) ? 'opacity-100 translate-y-0' : 
-                  (!isMobile ? 'opacity-0 translate-y-4 group-hover:opacity-100 group-hover:translate-y-0' : 'opacity-0 translate-y-4')
-                }`}>
-                  Discover
-                </button>
+               
               </div>
 
              
